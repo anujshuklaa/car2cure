@@ -491,7 +491,6 @@ function calculateTotal() {
             })      
             
                 document.getElementById('add-service').onclick = addService;
-                // document.getElementById('find_total').onclick = calculateTotal;
                 var a1 = document.querySelector("#find_total");
                 a1.addEventListener("click", function() {
                 calculateTotal();
